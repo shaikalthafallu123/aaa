@@ -1,0 +1,15 @@
+
+
+h1{
+    color:rgb(15, 1, 13);
+    font-family:inherit;
+    font-weight:bold;
+font-display:inherit;
+}
+html, body { height: 100%; }
+
+body{
+        background-image: url('assets\images\1.jpg');
+        background-size: 1252px;}
+        
+

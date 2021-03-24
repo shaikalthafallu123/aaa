@@ -1,0 +1,27 @@
+
+
+
+
+<div [style.display]="display3">
+
+    <label for="id">order Id</label><br>
+    <input type="number" name="id" [(ngModel)]="order.id"><br><br>
+
+    <label for="user name">user name</label><br>
+    <input type="text" name="user name" [(ngModel)]="order.name"><br><br>
+
+    <label for="OrderDetails">description</label><br>
+    <input type="text" name="orderTitle" [(ngModel)]="order.description"><br><br>
+    <button (click)=save()>save</button>
+</div>
+
+<div [style.display]="display2">
+    <h3>order id: {{order.id}}</h3>
+    <h3>name: {{order.name}}</h3>
+    <h3>description: {{order.description}}</h3>
+    <button (click)="edit()"> EDIT</button> </div>
+
+    
+
+
+  

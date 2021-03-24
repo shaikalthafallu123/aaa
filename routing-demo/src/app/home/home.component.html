@@ -1,0 +1,9 @@
+<h1>this event binding</h1>
+
+<button (click)="clickMe(); count=count" (keyup.backspace)="count=0">clickme!!!!!</button><br>
+
+<p> value{{count}}</p>
+
+<input type="text" [(ngModel)]="student"/>
+<button (click)="save()">send data from parent</button>
+

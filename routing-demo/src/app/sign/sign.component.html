@@ -1,0 +1,21 @@
+<h1>Forms</h1>
+
+<div class="container">
+    <form #signInForm="ngForm" (ngSubmit)="loginUser(signInForm);">
+        <div class="forms-group">
+            <label for="exampleInputEmail">Email address</label>
+            <input type="email" class="forms-control" id="exampleInputEmail" name="emailadressField" ngModel>
+        
+            <br>
+        </div>
+
+            <div class="forms-group">
+                <label for="exampleInputpassword">password</label>
+                <input type="password" class="forms-control" id="exampleInputpassword" name="passwordField" ngModel> <br>
+            
+            
+        </div>
+
+                <button type="submit" class="btn btn-primary">SignIn</button>
+    </form>
+</div>
